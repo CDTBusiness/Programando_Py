@@ -112,3 +112,9 @@ footer {
     background: #333;
     color: #fff;
 }
+
+section {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
