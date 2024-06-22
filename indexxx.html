@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#acerca-de-mi">Acerca de mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="intro">
+            <h1>Jose G Diaz</h1>
+            <h2>De todo</h2>
+        </section>
+
+        <section id="acerca-de-mi">
+            <h2>Acerca de mí</h2>
+            <p>Dormir es para ricos</p>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <div class="skills">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>De todo</span>
+                <span>Metodologías ágiles</span>
+            </div>
+        </section>
+
+        <section id="experiencia">
+            <h2>Experiencia</h2>
+            <div class="job">
+                <h3>Cross Motos (2015-2019)</h3>
+                <p>Encargado</p>
+            </div>
+            <div class="job">
+                <h3>Embutidos Hoge (2020-2023)</h3>
+                <p>Diseñador Grafico</p>
+                <p>Responsable del rebranding de la marca</p>
+            </div>
+        </section>
+
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <p><strong>Proyecto malicius_turtle</strong> - Coming Soon</p>
+            <p><strong>Proyecto X</strong> - 30/agosto</p>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="#" method="post">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright © 2024</p>
+    </footer>
+</body>
+</html>
